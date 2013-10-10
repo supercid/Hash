@@ -8,7 +8,6 @@
 
 # include <iostream>
 # include <queue>
-# include <stl_queue.h>
 
 using namespace std;
 

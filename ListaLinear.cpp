@@ -17,8 +17,7 @@
 using namespace std;
 
 template <class Type>
-struct nodeType
-{
+class nodeType{
 public:
 	nodeType();
 	//~nodeType();
@@ -29,25 +28,19 @@ public:
 
 template <class Type>
 nodeType<Type>::nodeType(){
-
 	next = NULL;
-
 }
 
 template <class Type>
 nodeType<Type>::nodeType(Type value){
-
 	valor = value;
 	next = NULL;
-
 }
 
 ////////////////////////////////////////////////////////////////////////////////
 
-
 template <class Type>
-class linkedListType
-{
+class linkedListType{
 public:
 
 	bool isEmptyList() const;
@@ -67,30 +60,23 @@ public:
 	linkedListType();
 	~linkedListType();
 private:
-	//variable to store the number of list elements
-	nodeType<Type> *first; //pointer to the first node of the list
+	nodeType<Type> *first; //ponteiro pra cabeca
 };
 
 template <class Type>
-linkedListType<Type>::linkedListType() //default constructor
-{
+linkedListType<Type>::linkedListType() {
 	first = NULL;
 }
 
 template <class Type>
-linkedListType<Type>::~linkedListType() //default constructor
-{
+linkedListType<Type>::~linkedListType(){
 	nodeType<Type> *temp;
 
-	while (first != NULL)
-	{
-		temp = first;
-		//set temp to the current node
+	while (first != NULL){
+		temp = first; //aponta tempo para o no atual
 		cout<<endl<<"Desalocando no' de valor "<<temp->valor<<endl;
-		first = first->next; //advance first to the next node
+		first = first->next; //caminha para o proximo no
 		delete temp;
-
-		//deallocate the memory occupied by temp
 	}
 	cout<<endl<<"Todos os nos foram removidos"<<endl;
 	cout<<endl<<"Lista desalocada"<<endl;
@@ -100,13 +86,10 @@ linkedListType<Type>::~linkedListType() //default constructor
 template <class Type>
 int linkedListType<Type>::copyFromList(linkedListType<Type> *l1){
 
-
 	nodeType<Type> *atualL0 = first;
 	int contador = 0;
 
-
 	nodeType<Type> *l1Atual = l1->first;
-
 
 	if(l1->first == NULL){
 		return contador; //lista l1 e' vazia e nao temos o que inserir
@@ -130,14 +113,12 @@ int linkedListType<Type>::copyFromList(linkedListType<Type> *l1){
 }
 
 
-
 template <class Type>
 void linkedListType<Type>::insertNode(Type value){
 
 	nodeType<Type> *novo = new nodeType<Type>(value);
 	nodeType<Type> *atual = first;
 	nodeType<Type> *anterior;
-
 
 
 	if(first == NULL){
@@ -152,14 +133,11 @@ void linkedListType<Type>::insertNode(Type value){
 		anterior->next = novo;
 	}
 
-
 }
-
 
 
 template <class Type>
 Type linkedListType<Type>::removeNode(){ //retorna o valor da chave
-
 
 	nodeType<Type> *atual = first;
 	nodeType<Type> *anterior;
@@ -183,9 +161,7 @@ Type linkedListType<Type>::removeNode(){ //retorna o valor da chave
 		return chave;
 	}
 
-
 }
-
 
 
 template <class Type>
@@ -221,8 +197,6 @@ int linkedListType<Type>::insertNodeAt(int position, Type value){
 	return __ERRO__;
 
 }
-
-
 
 
 template <class Type>
@@ -409,82 +383,3 @@ Type linkedListType<Type>::end() const
 	}
 
 }//end front
-
-int main() {
-
-	linkedListType<int> *minhaLista2 = new linkedListType<int>();
-	linkedListType<int> *minhaLista = new linkedListType<int>();
-	cout<<minhaLista->findValue(3)<<endl<<endl;
-	minhaLista->insertNode(1);
-
-	minhaLista->insertNode(2);
-	minhaLista->insertNode(3);
-	minhaLista->insertNode(4);
-
-	cout<<"Tamanho da minha lista: "<< minhaLista->length()<<endl<<endl;
-	puts("Minha lista: ");
-	minhaLista->print();
-
-
-	cout<<endl<<"Primeiro elemento da minha lista: "<<minhaLista->front()<<endl;
-
-
-
-	cout<<minhaLista->findValue(3)<<endl<<endl;
-
-	cout<<"Inserindo 10 na 2: "<<endl<<endl;
-	minhaLista->insertNodeAt(2,10);
-	minhaLista->print();
-
-	cout<<endl<<"Agora vou procurar e remover o 10"<<endl;
-	cout<<"10 esta na posicao: "<<minhaLista->findRemoveNode(10)<<endl<<endl;
-	cout<<endl<<"Lista depois da remocao do 10:"<<endl;
-	minhaLista->print();
-
-	cout<<endl<<"Agora vou procurar e remover o ultimo de valor "<<minhaLista->removeNode()<<endl;
-	cout<<endl<<"Lista depois da remocao do ultimo:"<<endl<<endl;
-
-	cout<<endl<<"Agora vou procurar e remover o valor na posicao 2: "<<minhaLista->removeNodeAt(2)<<endl<<endl;
-
-	minhaLista->print();
-
-	cout<<endl<<"Agora vou procurar e remover o 50 e o 55 no fim"<<endl;
-	minhaLista->insertNode(50);
-	minhaLista->insertNode(55);
-	minhaLista->print();
-	cout<<endl<<endl;
-
-	cout<<endl<<"Agora vou procurar e remover o valor na posicao 3: "<<minhaLista->removeNodeAt(3)<<endl<<endl;
-
-	minhaLista->print();
-	cout<<endl<<endl;
-
-	cout<<"Vou procurar pelo elemento 200 e remove-lo: "<<minhaLista->findRemoveNode(200)<<endl<<endl;
-	minhaLista->print();
-	cout<<endl<<endl;
-
-	minhaLista2->insertNode(9);
-	minhaLista2->insertNode(15);
-	minhaLista2->insertNode(22);
-	cout<<endl<<endl<<"Imprimindo a segunda lista"<<endl;
-	minhaLista2->print();
-
-	cout<<endl<<endl<<"Copiando da segunda pra primeira"<<endl;
-	cout<<endl<<endl<<"Realizei a copia de " <<minhaLista->copyFromList(minhaLista2)<<"elementos da lista dois pra um"<<endl;
-	minhaLista->print();
-
-	//cout<<endl<<"Vou limpar minha lista um"<<endl;
-	//minhaLista->limparLista();
-	//minhaLista->print();
-	//cout<<endl<<endl;
-
-	//cout<<endl<<"Vou limpar minha lista dois"<<endl;
-	//minhaLista2->limparLista();
-	//minhaLista2->print();
-	//cout<<endl<<endl;
-
-	delete(minhaLista);
-	delete(minhaLista2);
-	return 0;
-
-}

@@ -18,8 +18,7 @@
 using namespace std;
 
 template <class Type>
-struct nodeType
-{
+struct nodeType{
 public:
 	nodeType();
 	//~nodeType();
@@ -419,59 +418,3 @@ int doublyLinkedListType<Type>::findRemoveNode(Type value)
 
 	return __ERRO__;
 }//end print
-
-int main() {
-
-	doublyLinkedListType<int> *minhaLista2 = new doublyLinkedListType<int>();
-	doublyLinkedListType<int> *minhaLista = new doublyLinkedListType<int>();
-	cout<<minhaLista->findValue(3)<<endl<<endl;
-
-
-	cout<<endl<<"inserindo 15 na posicao " <<minhaLista->insertNode(15)<<endl;
-	cout<<endl<<"inserindo 13 na posicao " << minhaLista->insertNode(13)<<endl;
-	cout<<endl<<"inserindo 9 na posicao " <<minhaLista->insertNode(9)<<endl;
-	cout<<endl<<"inserindo 33 na posicao " <<minhaLista->insertNode(33)<<endl;
-
-	cout<<"Tamanho da minha lista: "<< minhaLista->length()<<endl<<endl;
-	puts("Minha lista: ");
-	minhaLista->print();
-
-
-	cout<<endl<<"Primeiro elemento da minha lista: "<<minhaLista->front()<<endl;
-
-
-
-	cout<<minhaLista->findValue(3)<<endl<<endl;
-
-	cout<<"Inserindo 10 na 2: "<<endl<<endl;
-	minhaLista->insertNodeAt(2,10);
-	minhaLista->print();
-	cout<<endl<<endl;
-
-	cout<<"agora imprimindo reverso"<<endl<<endl;
-	minhaLista->printReverse();
-	cout<<endl<<endl;
-
-	cout<<"\n\nMinha lista:\n\n";
-	minhaLista->print();
-	cout<<"\n\nagora removendo o ultimo elemento da lista"<<endl<<endl;
-	minhaLista->removeNode();
-	minhaLista->print();
-	cout<<endl<<endl;
-	cout<<"agora imprimindo reverso"<<endl<<endl;
-	minhaLista->printReverse();
-	cout<<endl<<endl;
-	cout<<endl<<"Agora vou remover o valor na posicao 2: "<<minhaLista->removeNodeAt(2)<<endl<<endl;
-	minhaLista->print();
-	cout<<endl<<endl;
-	cout<<"agora imprimindo reverso"<<endl<<endl;
-	minhaLista->printReverse();
-	cout<<endl<<endl;
-	cout<<"Vou procurar pelo elemento 200 e remove-lo: "<<minhaLista->findRemoveNode(200)<<endl<<endl;
-	minhaLista->print();
-	cout<<endl<<endl;
-	cout<<"Vou procurar pelo elemento 13 e remove-lo. Ele esta' na posicao  "<<minhaLista->findRemoveNode(13)<<endl<<endl;
-	minhaLista->print();
-	cout<<endl<<endl;
-	return 0;
-}
