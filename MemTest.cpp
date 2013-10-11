@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : MemTestEstatica.cpp
+// Name        : MemTest.cpp
 // Author      : Alcidemar Lopes
 // Version     :
 // Copyright   : Your copyright notice

@@ -24,7 +24,7 @@ int main(){
 	int j, avalia=0;
 
 	
-	
+	cout <<"INICIO: "<<endl;
 	for (int i=0;i<500000;i++){
 		j=rand()%500000;
 		vetor.push_back(j);
@@ -33,7 +33,8 @@ int main(){
 				gettimeofday(&mid, NULL);
 			    double diff_sec = difftime(mid.tv_sec, begin.tv_sec) * 1000000;
 			    double diff_milli = difftime(mid.tv_usec, begin.tv_usec);
-				cout<<"Avalia "<<avalia+1<<": "<<diff_sec + diff_milli<<"ms"<<endl;
+				// cout<<"Avalia "<<avalia+1<<": "<<diff_sec + diff_milli<<"ms"<<endl;
+				cout<<diff_sec + diff_milli<<endl;
 							/*ATENÇÃO^^^ */
 			avalia++;
 		}
