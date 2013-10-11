@@ -10,11 +10,14 @@
 #include <sys/time.h>
 #include <vector>
 #include <queue>
+#include <fstream>
 
 using namespace std;
 
 //============================================================================
 int main(){
+ofstream fout("StaticTimeMacintosh.dat");
+
 /*Medição do tempo */
 	struct timeval begin, end, mid;
 	gettimeofday(&begin, NULL);
@@ -34,10 +37,15 @@ int main(){
 				gettimeofday(&mid, NULL);
 			    double diff_sec = difftime(mid.tv_sec, begin.tv_sec) * 1000000;
 			    double diff_milli = difftime(mid.tv_usec, begin.tv_usec);
-				cout<<"Avalia "<<avalia+1<<": "<<diff_sec + diff_milli<<"ms"<<endl;
-							/*ATENÇÃO^^^ */
+				cout<<"Avalia "<<avalia+1<<": "<<diff_sec + diff_milli<<"ms"<<endl; //Terminal
+							 /*ATENÇÃO^^^*/
+				
+				fout << i <<"   " <<diff_sec + diff_milli<< endl;	//Arquivo
 			avalia++;
 		}
+
+
+
 	}
 	
 	//exibe o vetor
