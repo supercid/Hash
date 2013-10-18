@@ -1,0 +1,629 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"include"
+			],
+			[
+				"vet",
+				"vetTempo"
+			],
+			[
+				"e",
+				"esq"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"pri",
+				"private"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ArvoveBinaria.cpp",
+			"settings":
+			{
+				"buffer_size": 5868,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hashmap.cpp",
+			"settings":
+			{
+				"buffer_size": 1401,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hashmap.h",
+			"settings":
+			{
+				"buffer_size": 17056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hashset.h",
+			"settings":
+			{
+				"buffer_size": 15080,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ListaDuplamenteEncadeada.cpp",
+			"settings":
+			{
+				"buffer_size": 7183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ListaLinear.cpp",
+			"settings":
+			{
+				"buffer_size": 6615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MemTest.cpp",
+			"settings":
+			{
+				"buffer_size": 1735,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MemTestEstatica.cpp",
+			"settings":
+			{
+				"buffer_size": 1557,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MemTestDinamica.cpp",
+			"settings":
+			{
+				"buffer_size": 1618,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "stringmap.h",
+			"settings":
+			{
+				"buffer_size": 298,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Cid/Desktop/ATIVIDADE EMPREENDEDORISMO",
+		"/Users/Cid/Hash/StaticTimeMacintosh.dat",
+		"/Users/Cid/tempos.dat",
+		"/Users/Cid/Downloads/Gerenciamento de memória/Gerenciamento de mem¢ria/tempoDinamicoWinMF.dat",
+		"/Users/Cid/build-testeConole-Desktop_Qt_5_1_0_clang_64bit-Debug/Makefile",
+		"/Users/Cid/Hash/hashset.h",
+		"/Users/Cid/Hash/hashmap.h",
+		"/Users/Cid/Hash/MemTest.cpp",
+		"/Users/Cid/Hash/hashmap.cpp",
+		"/Users/Cid/Google Drive/Dropbox/hash-string.c",
+		"/Users/Cid/Google Drive/Dropbox/hash-string.h",
+		"/mach_kernel",
+		"/Users/Cid/Documents/UECE/Programação/Códigos Diversos/LAB 2/Caesar.cpp",
+		"/Users/Cid/Documents/UECE/Programação/Códigos Diversos/montecarlo.cpp",
+		"/Users/Cid/Documents/UECE/Programação/Códigos Diversos/montecarlo (1).cpp",
+		"/Users/Cid/Desktop/carneiraoCesar.cpp",
+		"/Users/Cid/Downloads/gnuplot-4.6.3/gnuplot-4.6.3/INSTALL",
+		"/Users/Cid/Downloads/1004bc15a937e3034d5547f94a9c5ec0/c100.txt",
+		"/Users/Cid/Hash/ListaLinear.cpp",
+		"/Users/Cid/Hash/stringmap.h",
+		"/Users/Cid/Hash/main.cpp",
+		"/Users/Cid/Downloads/0dc00dbe89bd8a603110d1a631ee669d/f100.mp3",
+		"/Users/Cid/Hash/ListaDuplamenteEncadeada.cpp",
+		"/Users/Cid/Hash/ArvoveBinaria.cpp",
+		"/Users/Cid/TesteHash/ListaDuplamenteEncadeada.cpp",
+		"/Users/Cid/TesteHash/ArvoveBinaria.cpp",
+		"/Users/Cid/TesteHash/ListaLinear.cpp",
+		"/Users/Cid/Documents/UECE/ED1/codigoListasED1/Listas/listaLinear/src/teste.cpp",
+		"/Users/Cid/Documents/UECE/ED1/codigoListasED1/Listas/listaDuplamente/src/listaDuplamente.cpp",
+		"/Users/Cid/Documents/UECE/ED1/codigoListasED1/Listas/listaDuplamente/src/ListaDuplamenteEncadeada.cpp",
+		"/Users/Cid/Desktop/CidArvore.cpp",
+		"/Users/Cid/Documents/UECE/Programação/ED1/teste.cpp",
+		"/Users/Cid/Downloads/Dicionários/Family-Names/Family-Names",
+		"/Users/Cid/Documents/UECE/Programação/Códigos Diversos/converte caractere para ascii.c",
+		"/Users/Cid/Documents/arvore.cpp",
+		"/Users/Cid/Documents/teste.java",
+		"/Users/Cid/Downloads/OS X 10.8 Mountain Lion Retail VMware Image/OS X 10.8 Mountain Lion Retail VMware Image/VMware Unlocker - Mac OS X Guest/VMware 7.1.x Series/VMware Player Unlocker/windows.bat",
+		"/Users/Cid/Documents/SPOJ.cpp",
+		"/Users/Cid/Documents/lucas.c",
+		"/Users/Cid/Documents/UECE/ED1/Cópia de Fila.cpp",
+		"/Volumes/NO NAME/_disk_id.pod",
+		"/Volumes/Cshow_htp/examples/ch23/fig23_17/BinaryTreeLibrary/BinaryTreeLibrary.cs",
+		"/Users/Cid/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Cid/Documents/Lista ED1/ed1",
+		"/Users/Cid/Documents/Lista ED1/Fila.cpp",
+		"/Users/Cid/Documents/Lista ED1/Fila.h",
+		"/Users/Cid/Documents/Lista ED1/funcoes.h",
+		"/Users/Cid/Documents/Lista ED1/main.cpp",
+		"/Users/Cid/Documents/Lista ED1/fibo.class",
+		"/Users/Cid/Documents/Lista ED1/fibo$.class",
+		"/Users/Cid/Documents/Lista ED1/main.o",
+		"/Users/Cid/Documents/Lista ED1/Pilha.cpp",
+		"/Users/Cid/Documents/Lista ED1/Pilha.h",
+		"/Users/Cid/Documents/Lista ED1/Pilha.o",
+		"/Users/Cid/Documents/Lista ED1/polinomios.cpp",
+		"/Users/Cid/Documents/Lista ED1/teste.scala",
+		"/Users/Cid/Documents/Lista ED1/Lista.h",
+		"/Users/Cid/Documents/Lista ED1/lista",
+		"/Users/Cid/Documents/Lista ED1/trab"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"total",
+			"inicio",
+			"MedeTempo",
+			"mac os",
+			"StringMap();",
+			"a",
+			"A",
+			"MAIOR",
+			"ALTURA",
+			"VAZIA",
+			"RAIZ",
+			"TARVORE",
+			"DADO",
+			"}\n",
+			"DIR",
+			"\n}",
+			"ESQ",
+			"INFO",
+			"TNO",
+			"return",
+			"             ",
+			"return",
+			"simplificarMonomio",
+			"ordenarPotenciasDeMonomio",
+			"ordena",
+			"analiseSin",
+			"analiseSintatica",
+			"etapaA",
+			"stringToken",
+			"2\n2\n2\n13\n13\n2\n432\n2\n6\n346\n36\n",
+			"polinomio",
+			"nodeType"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ArvoveBinaria.cpp",
+					"settings":
+					{
+						"buffer_size": 5868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "hashmap.cpp",
+					"settings":
+					{
+						"buffer_size": 1401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "hashmap.h",
+					"settings":
+					{
+						"buffer_size": 17056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "hashset.h",
+					"settings":
+					{
+						"buffer_size": 15080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ListaDuplamenteEncadeada.cpp",
+					"settings":
+					{
+						"buffer_size": 7183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "ListaLinear.cpp",
+					"settings":
+					{
+						"buffer_size": 6615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "main.cpp",
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "MemTest.cpp",
+					"settings":
+					{
+						"buffer_size": 1735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1127,
+								1127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 395.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "MemTestEstatica.cpp",
+					"settings":
+					{
+						"buffer_size": 1557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1557,
+								1557
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "MemTestDinamica.cpp",
+					"settings":
+					{
+						"buffer_size": 1618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								672,
+								672
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 245.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "stringmap.h",
+					"settings":
+					{
+						"buffer_size": 298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

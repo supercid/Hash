@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : MemTest.cpp
+// Name        : MemTestLista.cpp
 // Author      : Alcidemar Lopes
 // Version     :
 // Copyright   : Your copyright notice
@@ -9,25 +9,28 @@
 #include <iostream>
 #include <sys/time.h>
 #include <fstream>
-
+#include "ListaLinear.h"
+//#include "ListaDuplamenteEncadeada.h"
 using namespace std;
 
 //============================================================================
 int main(){
-ofstream fout("Tempos/StaticTimeMacintosh.dat");
+ofstream fout("Tempos/ListTimeMacintosh.dat");
 
 /*Medição do tempo */
 	struct timeval begin, end, mid;
 	gettimeofday(&begin, NULL);
 /*Medição do tempo */
 
-	int vet[500000];
+	linkedListType<int> Lista;
+	//doublyLinkedListType<int> Lista;
 	double vetTempo[25];
 	int avalia=0;
 	
 	for (int i=0;i<500000;i++){
 		//vet[i]=rand()%500000;
-		vet[i]=55;
+		
+		Lista.insertNode(0);
 		
 		if ((i%2000)==0){
 				gettimeofday(&mid, NULL);

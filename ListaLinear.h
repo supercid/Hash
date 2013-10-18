@@ -6,6 +6,9 @@
 // Description : 
 //============================================================================
 
+#ifndef _ListaLinear_h
+#define _ListaLinear_h
+
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -48,7 +51,6 @@ public:
 	void limparLista();
 	Type front() const;
 	Type end() const;
-	//Type back() const;
 	void insertNode(Type value);
 	int insertNodeAt(int position, Type value);
 	Type removeNode(); //remove o ultimo
@@ -119,19 +121,16 @@ void linkedListType<Type>::insertNode(Type value){
 	nodeType<Type> *atual = first;
 	nodeType<Type> *anterior;
 
-
 	if(first == NULL){
 		first = novo;
 	}
 	else{
 		while(atual!=NULL){
-
 			anterior = atual;
 			atual = atual->next;
 		}
 		anterior->next = novo;
 	}
-
 }
 
 
@@ -383,9 +382,4 @@ Type linkedListType<Type>::end() const
 
 }//end front
 
-int main(){
-
-cout <<" HAHAHAHAHAHA"<<endl;
-
-
-}
+#endif
